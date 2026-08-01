@@ -1,8 +1,25 @@
 aid: una-brands
 name: Una Brands
-description: Una Brands is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Una Brands is a Singapore-headquartered, digital-age e-commerce house of
+  brands that acquires and operates consumer e-commerce businesses across the APAC
+  region, accelerating their growth with operational expertise and AI-led innovation
+  from teams in Singapore, China, and Indonesia. The company publishes no public
+  developer API, but its website ships an llms.txt and a live Wix Site MCP endpoint
+  that lets AI agents retrieve business details, search products and services, book
+  appointments, and start purchases.
 url: https://raw.githubusercontent.com/api-evangelist/una-brands/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.wixstatic.com/media/03f066_d9823e9814064837bca83ee35ddfbb57%7Emv2.png/v1/fit/w_2500,h_1330,al_c/03f066_d9823e9814064837bca83ee35ddfbb57%7Emv2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- eCommerce
+- House of Brands
+- Brand Aggregator
+- Consumer Goods
+- Retail
+- Singapore
+- APAC
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,22 @@ maintainers:
 common:
 - type: Website
   url: https://una-brands.com
+- type: Blog
+  url: https://www.una-brands.com/blog
+- type: PrivacyPolicy
+  url: https://www.una-brands.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/una-brands
+- type: LLMsTxt
+  url: llms/una-brands-llms.txt
+- type: MCPServer
+  url: mcp/una-brands-mcp.yml
+- type: WellKnown
+  url: well-known/una-brands-well-known.yml
+- type: DomainSecurity
+  url: security/una-brands-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

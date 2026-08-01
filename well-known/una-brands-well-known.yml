@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the Una Brands
+  web hosts (the company publishes no API base hosts). Status is the HTTP code
+  observed at fetch time. The Wix-hosted site answers 400 Bad Request for
+  every /.well-known/ path probed, so no documents were saved. The site does
+  publish /llms.txt (HTTP 200), saved separately as llms/una-brands-llms.txt.
+hosts:
+  - host: https://una-brands.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 400
+      - path: /.well-known/openid-configuration
+        status: 400
+      - path: /.well-known/oauth-authorization-server
+        status: 400
+      - path: /.well-known/api-catalog
+        status: 400
+      - path: /.well-known/ai-plugin.json
+        status: 400
+  - host: https://www.una-brands.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 400
+      - path: /.well-known/openid-configuration
+        status: 400
+      - path: /.well-known/oauth-authorization-server
+        status: 400
+      - path: /.well-known/api-catalog
+        status: 400
+      - path: /.well-known/ai-plugin.json
+        status: 400
