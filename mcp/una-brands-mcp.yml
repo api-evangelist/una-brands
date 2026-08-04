@@ -1,7 +1,8 @@
 generated: '2026-07-21'
 method: searched
 source: https://una-brands.com/llms.txt (verified live via JSON-RPC tools/list probe 2026-07-21)
-status: live
+status: published
+status_raw: live
 name: Una Brands Site MCP
 description: >-
   Hosted Model Context Protocol server for the Una Brands website, provided by
